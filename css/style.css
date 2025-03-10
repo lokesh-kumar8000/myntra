@@ -1,0 +1,1425 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    font-family: "Open Sans", serif , "Inter";
+    text-decoration: none; 
+    color: inherit; 
+    /* list-style: none; */
+
+} 
+.header1{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.header{
+    width: 100%;
+    /* padding: 20px; */
+    /* background-color: blue;  */ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05); 
+    /* padding: 0px 60px;  */ 
+    height: 80px; 
+
+    background-color: white; 
+    position: relative; 
+    
+}
+
+.header_logo{
+    margin-left: 40px;
+    height: 36px;
+    width: 53px; 
+    margin-right: 20px;
+    /* background: url('../image/logo\ \(2\).png');
+    background-size: 1404px 105px;
+    background-position: -462px 0;  */
+   
+  
+}
+
+
+
+
+.header_menu>ul{ 
+    display: flex;
+    /* justify-content: space-around; */ 
+} 
+.header_menu>ul>li{
+    padding: 0px 17px; 
+    font-size: 13px;  
+    font-weight: 700;  
+    text-transform: uppercase;  
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+} 
+
+.header_menu>ul>li:hover{
+    border-bottom: 2px solid #fb56c1; ;
+}
+.header_menu>ul>li:hover .manus{
+
+    opacity: 1; 
+    visibility: visible;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.511);
+
+    
+
+}
+
+.manus{
+    width: 80%; 
+    /* height: 400px;  */
+    background-color: #fff;  
+    position: absolute; 
+    top: 100%;
+    left: 130px;
+    cursor: pointer;
+    opacity: 0; 
+    visibility: hidden;
+    transition: 0.01s; 
+    display: flex;
+    gap: 15px;
+    z-index: 0;
+
+
+}  
+.mega_manu{
+    width: 235px;
+    /* background-color: rgb(0, 255, 98); */
+    padding: 20px 10px 10px 15px; 
+    font-size: 12px; 
+} 
+
+/* .mega_manu ul{
+    border-bottom: 1px solid #696b79;
+    padding-bottom: 20px; 
+   
+}  */
+.mega_manu li{
+    padding: 0px 0px 0px 20px; 
+    line-height: 23px; 
+    font-weight: 500;
+    font-size: 12px; 
+    transition: 0.1s; 
+   
+ 
+}
+.mega_manu li:hover{
+    font-size: 13px;
+    font-weight: 700;
+}
+.maga_manu_a{
+    color: #ee5f73; 
+    margin-bottom: 10px;
+    padding: 0px 0px 0px 20px; 
+
+}
+
+
+
+
+
+
+
+
+/* .header_input input{
+    border: none; 
+    outline: none; 
+    width: ; 
+} */
+
+
+.header_input{
+    width: 500px;
+    background-color: #f5f5f5;
+    /* padding: 10px 10px;  */
+    display: flex;
+    /* justify-content: center; */ 
+    align-items: center; 
+    /* cursor: pointer; */
+}   
+
+.header_input .searchicon{
+    width: 40px;
+    height: 40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.header_input .forseach input{
+    border: none;
+    outline: none;
+    width: 460px;
+    height: 40px;
+    background-color: #f5f5f5;
+    padding-left: 10px;
+}
+
+.header_last_section{
+    margin: 0px 30px;
+    height: 40px;
+    width: 194px;
+    display: flex; 
+    
+    
+}
+
+.header_last_section .myntra{
+    height: 40px;
+    width: 33%;
+    text-align: center;
+}
+
+.main_getoff{
+    width: 100%; 
+    padding-top: 50px;
+
+}
+
+.main_getoff img{
+    width: 100%;
+    padding: 20px 60px;
+    padding-top: 50px;
+}
+
+.main_slide img{
+    width: 100%;
+    height: 400px;
+   
+}
+
+.main_slide_dotted {
+    width: 100%;
+    margin: 10px 0px;
+    display: flex; 
+    justify-content: center;
+   
+    
+} 
+
+.main_slide_dotted p{
+    height: 8px;
+    width: 8px;
+    background-color: rgba(128, 128, 128, 0.645); 
+    border-radius: 50%;  
+    margin: 5px; 
+    cursor: pointer; 
+    
+}
+
+
+
+.model_grand{
+    width: 100%;
+    /* height: 400px; */
+    /* background-color: red ; */
+   
+}
+.model_grand .model_grand_text{
+    padding: 50px 0px 70px 30px; 
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+
+}
+
+.model_grand_image{
+    
+    display: flex;
+    
+  
+    padding: 10px 0px;
+}
+
+.model_grand_image img{
+    height: 330px;
+    width: 253px; 
+} 
+
+.globel_brand {
+    width: 100%;
+    /* height: 500px; */
+    /* background-color: red; */
+}
+
+.globel_brand .globel_brand_text{
+    padding: 50px 0px 70px 30px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    
+}
+
+.globel_brand .globel_brand_img{ 
+    display: flex;
+    padding: 10px 0px;
+
+}
+.globel_brand .globel_brand_img img{
+    height: 330px;
+    width: 253px;
+} 
+
+.categroy{
+    width: 100%;
+}
+.categroy_text{ 
+    padding: 50px 0px 60px 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+} 
+.categroy_img { 
+    display: flex;
+    flex-wrap: wrap; 
+    
+   
+} 
+
+
+
+.categroy_img img{
+    height: 300px; 
+    width: 250px;
+ 
+} 
+
+
+.shop_footer{
+    margin: auto;
+}
+
+.footer{
+    width: 100%;
+    background-color: #ecebeb;
+    padding: 30px 0px 0px; 
+    /* display: flex;
+    justify-content: center; */ 
+    /* margin: 0px 250px; */
+    padding-left: 220px;
+    padding-right: 220px;
+    color: #696b79;
+    
+
+}
+
+.footer_one{
+    display: flex;
+    /* justify-content: space-between; */
+    font-size: 13px; 
+    color: #696b79;
+    /* margin: 0px 250px; */
+    font-size: 15px;
+}
+.footer_one .online_shoping{
+    text-transform: capitalize;
+    line-height: 20px;
+
+    width: 185px; 
+
+} 
+.footer_one .online_shoping ul li{
+    padding-bottom: 5px;
+}
+
+.footer_one .online_shoping p{
+    font-weight: bold; 
+    padding-bottom: 30px;
+    color: black; 
+    font-size: 15px;
+}
+
+
+.customer{
+    width: 182px;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+.customer p{
+    font-weight: bold; 
+    padding-bottom: 30px;
+    color: black;
+    
+}
+.customer ul li{
+
+    padding-bottom: 5px;
+}
+
+
+
+.footer_one .social_media{
+    width: 360px;
+} 
+
+.footer_one .social_media p{
+    font-weight: bold; 
+    padding-bottom: 30px;
+    color: black;
+    font-size: 15px;
+}
+.footer_one .social_media img{
+    padding: 0px 10px 0px 0px;
+}
+
+.footer_orginal .orginal{ 
+    display: flex; 
+    font-size: 15px;
+}
+
+.footer_orginal .orginal img{
+    margin-right: 10px;
+}
+
+
+
+.footer_orginal .orginal p b{
+    color: black;
+}
+
+
+
+.footer_two h4 {
+    margin: 20px 0px ;
+    font-size: 15px;
+}
+.footer_two ul{
+    display: flex;
+    flex-wrap: wrap;
+} 
+.footer_two ul li{
+    margin: 3px 0px;
+    padding: 0px 10px;
+    text-transform: capitalize;
+    border-right: 2px solid gray; 
+}
+
+.footer_two_one{
+    display: flex; 
+    justify-content: space-between; 
+    padding: 10px 0px 20px; 
+} 
+
+.footer_three{
+    display: flex; 
+    justify-content: space-between; 
+    padding: 20px 0px;
+}
+.footer_address :nth-child(1){
+    color: black;
+    padding: 10px 0px;
+} 
+.footer_address :nth-child(2){
+    line-height: 20px;
+    
+}
+.footer_contact_no{
+    display: flex;
+    align-items: end; 
+}
+
+.footer_fourth{
+    padding: 20px 0px;
+} 
+
+.footer_fourth :nth-child(1){
+    color: black;
+    padding-bottom: 20px;
+
+}
+.footer_fourth :nth-child(2){
+    text-align: justify;
+} 
+
+.footer_five{
+    padding: 20px 0px; 
+    list-style: decimal; 
+    
+}  
+.footer_five h4{
+    color: black;
+    padding: 10px 0px;
+}
+
+.footer_five p{ 
+    padding: 10px 0px;
+
+}
+.footer_five ol{
+    padding-left: 40px;
+    
+}
+.footer_five ul{
+    padding-left: 40px;
+}
+.footer_five li{
+    margin: 20px 0px;
+}
+
+/* woman css start */
+.woman_slide{
+    padding-top: 100px;
+}
+
+.top_brand_img img{
+    margin-top: -5px;
+    cursor: pointer;
+} 
+
+.top_brand_img_section{
+    margin: 0px 50px;
+    display: flex;
+    
+    justify-content: space-around; 
+    flex-wrap: wrap;
+} 
+
+.globel_brand .woman_categroy{
+    display: flex;
+    margin: 0px 50px;
+    justify-content: space-around;
+}
+.globel_brand .woman_categroy img{
+    height: 250px;
+    width: 209px;
+    cursor: pointer;
+    
+
+}
+
+.woman_top_brands h2{
+    padding: 50px 0px 70px 30px; 
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+} 
+
+.woman_top_brands_img {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 40px; 
+}
+.woman_top_brands_img img{
+    height: 392px;
+    width: 256px;
+    cursor: pointer;
+}
+.woman_accesseris{
+    margin-bottom: 50px;
+}
+/* woman css end */
+
+/* man css start */
+
+.man_top_brand img{
+    height: 532px;
+    width: 326px;
+}
+.man_luxe img{
+    width: 208px;
+    height: 273px;
+}
+
+/* man css end */
+
+/* t_shirt start */
+/* .t_shirt_main {
+    padding-top: 100px;
+} */
+.main_header1 ul{
+    display: flex;
+    justify-content: left;
+    padding: 10px 0px 10px 25px ;
+    font-size: 14px;
+
+}
+.main_header1 ul li{
+    text-transform: capitalize;
+    padding-right: 10px;
+} 
+
+.man_header2 {
+    padding: 10px 0px 10px 25px ;
+
+}
+
+.main_header3{
+    margin-top: 20px;
+    display: flex;
+}
+.main_header3_first_seaction {
+    width: 252px;
+    /* background-color: red; */
+    padding-top: 15px;
+}
+.main_header3_second_seaction {
+    width: 1268px;
+    /* background-color: blue; */
+}
+.filter{
+    font-size: 16px;
+    padding: 0px 0px 15px 25px; 
+    font-weight: 700;
+}
+.main_header3_header{
+
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 20px; */ 
+    padding: 0px 0px 15px;
+}
+.main_header3_header_one{
+    margin-left: 16px; 
+    
+}
+.main_header3_header_one ul{
+    display: flex; 
+    justify-content: end;
+
+}
+.main_header3_header_one ul li{
+    padding: 9px 8px 5px 10px;
+    font-size: 14px; 
+    cursor: pointer; 
+    transition: 0.5s;
+} 
+.main_header3_header_one ul li:hover{
+    background-color: #f4f4f5;
+    border-radius: 20px;
+}
+
+.main_header3_header_two{
+    height: 38px;
+    width: 255px; 
+    border: 2px solid #d4d5d9;
+    padding: 5px 14px;
+    margin-right: 20px;
+    cursor: pointer;
+
+} 
+.main_header3_header_two i{
+    float: right;
+}
+.main_header3_header_two span{
+    font-size: 14px;
+    font-weight: 700;
+
+} 
+
+.shirt_categroy{
+    border: 1px solid #e9e9ed; 
+    padding: 20px 0px 15px 25px; 
+    font-size: 14px;
+} 
+
+
+.shirt_box{
+    height: 16px;
+    width: 16px;
+    border: 1px solid  #c3c2c9;
+    margin-right: 5px; 
+}
+.number{
+    font-size: 11px;
+    margin-top: 3px;
+    color: #94969f;
+}
+
+.shirt_categroy .categroy{
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.categroy_box{
+    display: flex;
+    padding: 7px 0px; 
+    cursor: pointer;
+}
+
+.brand{
+    display: flex;
+    
+}
+.brand i{
+    margin-right: 10px; 
+    cursor: pointer;
+} 
+
+.brand_more{
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 27px;
+    color: #ff3f6c;
+} 
+
+.main_header3_second_seaction_img{
+    border: 1px solid #e9e9ed;
+    padding: 24px 15px 0px 20px; 
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    border-bottom: none;
+    padding-bottom: 50px;
+   
+}
+.main_header3_second_seaction_img1{
+    width: 210px;
+}
+
+.main_header3_second_seaction_img1:hover{ 
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.532); 
+}
+
+.main_header3_img1_text{
+    margin-top: 10px;
+    padding: 0px 10px; 
+
+}
+
+.main_header3_img1_text h2{
+    font-size: 16px;
+} 
+.main_header3_img1_text p{
+    font-size: 14px; 
+    color: #535766;
+    font-weight: 600;
+    
+} 
+.product_price{
+    display: flex;
+    justify-content: left; 
+    margin: 10px 0px 6px; 
+    font-weight: 700; 
+    align-items: baseline;
+} 
+
+.product_price :nth-child(1){
+    font-size: 14px;
+}
+
+.product_price :nth-child(2){
+    font-size: 12px; 
+    margin-left: 5px;
+    text-decoration: line-through;
+
+}
+
+.product_price :nth-child(3){
+    font-size: 12px;
+    margin-left: 5px; 
+    color: #ff905a;
+} 
+
+.main_header3_second_footer{
+    border-top: 2px solid #edebef;
+    padding-top: 24px;
+    padding-bottom: 60px; 
+    color: #494a52; 
+    font-weight: 700;
+}
+
+.main_header3_second_footer ul{
+    display: flex; 
+    justify-content: center;
+    gap: 20px;
+    font-size: 14px;
+    align-items: baseline;
+} 
+
+.page1{
+    margin-right: 20px;
+    padding: 6px 8px;
+    font-weight: 500; 
+}
+
+.previous{
+    border: 1px solid #d4d5d9;
+    padding: 10px 22px; 
+    border-radius: 5px;
+    margin-right: 64px;
+    font-weight: 500; 
+
+} 
+
+.page1of {
+    margin: 6px 10px 0px 0px;
+    font-weight: 400;
+    padding: 6px 8px;
+
+}
+
+.next{
+    border: 1px solid #d4d5d9;
+    margin-left: 64px;
+    padding: 10px 22px; 
+    border-radius: 5px; 
+    color: black;
+} 
+
+.shirt_categroy input{
+    height: 2px; 
+    width: 80%;
+   
+    
+}  
+.shirt_categroy .range_num{
+    margin: 10px 0px 0px 4px; 
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.categroy_box .color_box{
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    margin: 0px 5px; 
+    border: 1px solid #c3c2c9;
+}
+.shirt_box1{
+    border-radius: 50%;
+    margin-right: 5px; 
+}
+
+
+.footer_tshirt{
+    color: #696b79;
+    display: flex; 
+    width: 1080px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    gap: 30px;
+} 
+
+.footer_tshirt1{
+    width: 660px;
+    
+
+}
+.footer_tshirt2{
+    width: 420px;
+
+}
+
+.tshirt_footer_index{
+    text-align: center; 
+    text-transform: uppercase;
+    margin-bottom: 10px; 
+    
+    
+}
+.tshirt_footer_index h2{
+    font-size: 16px;
+    
+}
+
+.footer_tshirt1 p{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    text-align: justify;
+}
+
+.footer_tshirt1 li{
+
+    font-size: 13px;
+    line-height: 20px;
+} 
+.footer_tshirt1 h2{
+    font-size: 14px;
+    text-transform: uppercase; 
+}
+
+.bestseller a{
+    padding-left: 5px;
+    border-left: 1px solid #94969f;
+}
+
+.footer_tshirt1 h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.footer_table{
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+
+.footer_table td{
+    padding: 8px; 
+}
+/* t_shirt end */
+
+/* home & living start */ 
+.living_main{
+    padding-left: 60px;
+    padding-right: 60px; 
+    /* display: flex; */
+}
+
+.trands_living{
+    display: flex; 
+    gap: 17px; 
+    background-color: #ecedf3;
+}
+
+.trands_living div{
+    width: 466px; 
+    height: 486px; 
+    z-index: 0;
+    overflow: hidden;
+}
+/* .trands_living img{
+    transform: scale(1);
+    transition: 0.5s; 
+} */
+
+/* .trands_living img:hover{
+    transform: scale(1.04); 
+}  */
+
+.living_main_one{
+    display: flex;
+}
+
+.living_main_first{
+    width: 1050px; 
+    /* background-color: blue; */
+}
+
+
+.living_main_second{
+    /* width: 375px;  */
+    /* background-color: red; */
+    font-size: 15px; 
+    padding-left: 20px;
+    
+} 
+
+.living_slide img{ 
+    margin-top: 100px; 
+}
+
+.living_main_first_text{
+    text-transform: uppercase; 
+    margin: 50px 0px 10px 30px;
+    letter-spacing: 5px;
+} 
+
+.living_main_first_img{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 20px; 
+   
+}
+.living_main_first_img div{
+    width: 504px;
+    height: 394px;
+    overflow: hidden;
+    /* padding-right: 8px;  */
+    margin-bottom: 30px;
+    
+}
+
+.living_main_first_img img{ 
+    overflow: hidden;
+    transition: 1s;
+    transform: scale(1);
+    
+}
+
+.living_main_first_img img:hover{  
+
+    transform: scale(1.05); 
+}
+
+
+.living_main_second p{
+    padding: 15px 0px;
+}
+.living_main_second li{
+    padding: 2px 0px;
+    font-size: 14px;
+}
+.living_main_second li:hover{
+    text-decoration: underline; 
+}
+.trands_living{
+    cursor: pointer;
+    margin-top: -5px; 
+   
+} 
+
+.featurs_brand{
+    padding-left: 60px;
+}
+.spaces_living{
+    margin-bottom: 62px;
+}
+.featurs_living{
+    margin-bottom: 50px;
+}
+
+/* home & living end */ 
+
+/* touchtshirt start  */ 
+
+.main_section_touch_tshirt{
+    padding: 0px 28px 15px; 
+    padding-top: 70px;
+} 
+.touch_tshirt_header1 ul{
+    padding: 29px 0px 22px;
+}
+.touch_tshirt_header1 li{
+    font-size: 14px;
+}  
+.touch_tshirt_header1 li:hover{
+    text-decoration: underline;
+}
+
+.main_touch_tshirt{
+    display: flex;
+
+}
+
+.main_touch_tshirt_img{
+    width: 846px; 
+    /* background-color: red;  */
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px;
+    /* justify-content: space-between;
+    align-items: start;  */ 
+    align-self: flex-start; 
+   
+   
+} 
+.main_touch_tshirt_img div{
+    width: 418px;
+    height: 560px;
+    overflow: hidden;
+}
+.main_touch_tshirt_img img {
+    transition: 0.5s;
+    transform: scale(1);
+    
+
+}
+.main_touch_tshirt_img img:hover{
+    transform: scale(1.05); 
+   
+}
+
+.main_touch_tshirt_text{
+    /* background-color: blue;  */
+    width: 580px;
+    
+    margin: 0px 0px 0px 30px;
+    
+
+} 
+.onetshirt_header1 h1{
+    font-size: 24px; 
+    font-weight: 700 ;
+} 
+
+.onetshirt_header2 h1{
+    font-size: 20px; 
+    padding: 5px 20px 14px 0px; 
+    font-weight: 400;
+    opacity: .8;
+} 
+
+.onetshirt_header3{
+    display: flex; 
+    padding: 8px;
+    border: 1px solid #eaeaec; 
+    width: 170px; 
+    margin-bottom: 15px;
+    gap: 5px;
+}
+.onetshirt_header3 .onetshirt_header3_img i{ 
+    color: green;
+  
+} 
+.oneshirt_header4{
+    margin: 14px 0px 5px;
+}
+.oneshirt_header4 :nth-child(1){
+    font-size: 24px; 
+    cursor: pointer; 
+    margin-right: 10px;
+}
+
+.oneshirt_header4 :nth-child(2){
+    font-size: 20px; 
+
+    margin-right: 10px;
+    color: #282c3f;
+}
+.oneshirt_header4 :nth-child(2) span{
+    text-decoration: line-through;
+}
+.oneshirt_header4 :nth-child(3){
+    font-size: 20px; 
+    margin-right: 10px;
+    color: #ff905a;
+    font-weight: 700;
+}
+.oneshirt_header5 p{
+    color: #03a685; 
+    font-weight: 700;
+    font-size: 14px;
+    margin: 5px 10px 0px 0px;
+} 
+
+.oneshirt_header6{
+    margin-top: 20px;
+}
+.oneshirt_header6 .oneshirt_header6_text p{
+    font-size: 14px; 
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.oneshirt_header6_img img{
+    margin: 0px 10px 12px 0px;
+}
+.oneshirt_header7{
+    display: flex;
+    gap: 30px;
+} 
+.oneshirt_header7 h4{
+    font-size: 16px;
+}
+.oneshirt_header7 span{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #ff3e6c;
+}
+
+.oneshirt_header8{
+    display: flex;
+    margin: 20px 0px; 
+    gap: 10px;
+}
+.oneshirt_header8_btn1{ 
+    height: 50px;
+    width: 50px;
+    border: 1px solid #bfc0c6   ;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    cursor: pointer; 
+    transition: 1ms;
+
+}
+.oneshirt_header8_btn1:hover{
+    border: #ff3e6c 1px solid;
+} 
+
+.oneshirt_header9{
+    margin-bottom: 20px;
+}
+.oneshirt_header9_btn1{
+    padding: 15px 0px; 
+    width: 250px; 
+    background-color: #ff3f6c; 
+    border: none; 
+    border-radius: 5px; 
+    color: white; 
+    font-weight: 700; 
+    margin-right: 10px; 
+    cursor: pointer;
+
+} 
+
+.oneshirt_header9_btn2{
+    padding: 15px 0px; 
+    width: 190px; 
+    color: #282c3f; 
+    font-weight: 700;  
+    background-color: #fff; 
+    border: 1px solid #bfc0c6; 
+    border-radius: 5px;
+    cursor: pointer;
+} 
+
+.oneshirt_header10{
+    margin-top: 20px;
+}
+.oneshirt_header10 h4{
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+    padding: 20px 0px;
+}
+
+.oneshirt_header10 .pincode{
+    border: 1px solid #d4d5d9; 
+    border-radius: 5px; 
+    padding: 10px; 
+
+} 
+.oneshirt_header10 .pincode_btn{
+    color: #ff3e6c;
+    font-weight: 700; 
+    background-color: #fff; 
+} 
+.oneshirt_header10 p{
+    font-size: 13px; 
+    margin: 8px 0px 10px;
+}
+.oneshirt_header10 li{
+    margin: 10px 0px;
+    font-size: 16px;
+}
+
+.oneshirt_header11{
+    margin-top: 30px;
+    margin-bottom: 30px; 
+   
+}
+.oneshirt_header11 h4{
+    margin: 20px 0px;
+}
+
+.oneshirt_header11 li{
+    margin: 8px 0px; 
+    font-weight: 400;
+}
+
+.oneshirt_header11 p{
+    font-size: 14px; 
+    color: #ff3f6c;
+    font-weight: 700; 
+    margin: 5px 0px 10px 0px;
+
+} 
+
+.oneshirt_header12{
+    margin: 30px 0px;
+}
+/* .oneshirt_header12 p{
+    line-height: 30px;
+} */
+
+.oneshirt_header13 h4{
+    padding: 0px 0px 12px;
+}
+.oneshirt_header13_special{
+    display: flex; 
+    flex-wrap: wrap;
+}
+.oneshirt_header13_special .index_row {
+    border-bottom: 1px solid #eaeaec; 
+    width: 230px;
+    margin: 0px 60px 12px 0px;
+    padding-bottom: 10px;
+} 
+.oneshirt_header14{
+    margin-top: 10px; 
+
+
+}
+.oneshirt_header14 h4{
+    text-transform: uppercase; 
+    font-size: 16px;
+    padding-bottom: 10px;
+} 
+
+.rating_column{
+    display: flex;
+}
+.rating_column_rating{
+    padding-right: 50px; 
+    border-right: 1px solid #eaeaec; 
+    font-size: 14px;
+} 
+.rating_column_rating p{
+    font-size: 14px;
+}
+.rating_column_rating1{
+    display: flex; 
+
+}
+.rating_column_rating .fourpointtwo{
+    font-size: 48px;
+}
+.rating_column_rating i{
+    margin: 25px 0px 0px 10px;
+   font-size: 20px;
+   color: green;
+}
+.progrees_rating{
+    display: flex;
+}
+.progrees_rating progress{
+   
+    color: #14958f;
+}
+
+.oneshirt_header15 h4{
+    margin: 10px 0px;
+}
+
+.oneshirt_header16{
+    margin: 20px 0px;
+}
+
+.oneshirt_header16 h4 {
+    font-size: 16px;
+} 
+
+.oneshirt_header16_rating{
+    padding: 18px 0px;
+    
+}
+
+.user_rating{
+
+    display: flex;
+}
+
+.oneshirt_header16_rating_star span {
+    display: flex;
+    background-color: green; 
+    color: #fff; 
+    padding: 0px 5px ;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+
+} 
+.oneshirt_header16_rating_text{
+    padding-left: 10px;
+} 
+
+.oneshirt_header16_rating_user{
+    display: flex; 
+    justify-content: space-between; 
+    font-size: 14px;
+}
+
+.oneshirt_header16_rating_user{
+    padding-left: 40px;
+}
+
+.oneshirt_header17{
+    margin: 20px 0px;
+}
+.oneshirt_header17 a{
+    color: #ff3f6c;
+    font-size: 14px;
+    font-weight: 600; 
+    line-height: 60px;
+} 
+
+.oneshirt_footwer{
+    padding: 30px 0px 0px;
+} 
+
+.oneshirt_footwer h3{
+    font-size: 16px;
+    font-weight: 700; 
+    margin-bottom: 24px;
+}
+
+.oneshirt_footwer_img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+} 
+
+.more_tshirt{
+    display: flex; 
+    justify-content: center;
+    margin: 35px 0px 50px; 
+    text-align: center; 
+    width: 100%;
+    /* background-color: red; */
+   
+}
+
+.more_tshirt .index_link {
+    padding: 16px 20px; 
+    border: 1px solid #bfc0c6; 
+    border-radius: 24px;
+    color: #ff3e6c; 
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.1s;
+    cursor: pointer;
+    margin-right: 16px;
+}
+.more_tshirt .index_link:hover{
+    border: 1px solid #ff3e6c; 
+}
+/* touchtshirt end */ 
+
+.oneshirt_footwer{
+    margin-bottom: 50px;
+}
+
+
+/* slider_bar_right_side start */
+.slider_bar_right_side{
+    position: fixed;
+    bottom: 300px;
+    right: -120px;
+    height: 50px; 
+    width:  288px; 
+    background-color: #535766;  
+    display: flex; 
+    transform: rotate(270deg); 
+    font-size: 25px; 
+    font-weight: 700;
+    padding: 5px;
+    color: white;
+
+    
+}
+
+.slider_bar_right_side .icons_right_slide i{
+    
+    margin: 3px 20px;
+   font-size: 40px; 
+   transform: rotate(90deg);
+
+}
+.text_right_slide{
+   
+   padding: 4px;
+   padding-left: 20px;
+
+}
+/* slider_bar_right_side end */
+/* bell start */
+.bell{
+    position: fixed;
+    right: 5px;
+    bottom: 120px;
+    height: 50px;
+    width: 50px; 
+    border-radius: 50%;
+    background-color: rgb(49, 49, 212);
+    color: #fff; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 30px; 
+} 
+
+
+/* bell end */
